@@ -10,6 +10,8 @@
     <form method="GET" action="variaveis-pre-definidas.php">
         <input type="text" name="nome" placeholder="Nome" required/>
         <input type="number" name="idade" placeholder="Idade" required/>
+        <input type="checkbox" name="fez-aniversario"/>
+        <label>Já fez aniversário esse ano?</label>
         <button>Enviar</button>   
     </form>
 </body>
